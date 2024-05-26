@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking- Lalitpur Tourism</title>
+    <link rel="stylesheet" href="tourism style.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="heritage.html">Heritage</a></li>
+                <li><a href="hotelbooking.html">Hotel Booking</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul> </nav>
+    </header>
+    <main><form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" name="contact" required>
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
+            <label for="roomtype">Room Type:</label>
+            <select id="roomtype" name="roomtype" required>
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select>
+            <label for="specialrequests">Special Requests:</label>
+            <textarea id="specialrequests" name="specialrequests" rows="4"></textarea>
+           <input type="submit" value="Submit Booking">
+        </form>
+    </body>
+</html>

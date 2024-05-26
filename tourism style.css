@@ -1,0 +1,166 @@
+body {
+    background-color:#e5ebeb;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* css for header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+/* css for footer */
+footer {
+    background-color: #175575;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+ /* css for gallery  */
+.gallery {
+    max-width: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.gallery img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.gallery h2 {
+    text-align: center;
+}
+.photo{
+    max-width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    float:right;
+}
+.photo img{
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 0px;
+}
+.photo h2{
+    text-align: center;
+}
+.photoo{
+    max-width: 150px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    float:right;
+}
+.photoo img{
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 0px;
+}
+.photoo h2{
+    text-align:right;
+}
+/* css for list of heritage site */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heritage-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.heritage-list li {
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+.heritage-list li img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.heritage-list li img:hover {
+    transform: scale(1.05);
+}
+.heritage-list li a {
+    text-decoration: none;
+    color: #333;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+label {
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
